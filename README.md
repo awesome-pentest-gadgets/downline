@@ -2,7 +2,10 @@
 
 ![GitHub All Releases](https://img.shields.io/github/downloads/stefnotch/downline/total.svg)
 
-[Downline](https://stefnotch.github.io/downline/) is a free, cross-platform desktop application for downloading video and audio from YouTube and many other sites. It is a frontend for youtube-dl. Works on Windows, MacOS and Linux.
+[Downline](https://stefnotch.github.io/downline/) is a free, cross-platform desktop application for downloading video and audio from YouTube and many other sites. It is a frontend for [yt-dlp](https://github.com/yt-dlp/yt-dlp). Works on Windows, MacOS and Linux.
+
+This project previously used [youtube-dl](https://github.com/ytdl-org/youtube-dl), but recently switched to yt-dlp.
+We came to this decision due to the higher activity on yt-dlp and active maintanance, while youtube-dl is only occasionally updated.
 
 [Check out the other youtube-dl GUIs here](https://www.reddit.com/r/youtubedl/wiki/info-guis), I personally quite recommend [this one](https://github.com/jely2002/youtube-dl-gui)
 
