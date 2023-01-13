@@ -47,7 +47,9 @@ Install youtube-dl using the following commands on Windows or macOS
 curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 chmod a+rx /usr/local/bin/youtube-dl
 ```
+
 Or on Linux
+
 ```sh
 sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
 sudo chmod a+rx /usr/local/bin/youtube-dl
@@ -74,6 +76,16 @@ Note that it may take over a minute the first time you try this out
 1. [Install the prerequesites for your system](https://tauri.app/v1/guides/getting-started/prerequisites)
 2. `npm install`
 3. `npm run tauri build`
+
+### Downloading Python
+
+First `cd utils`, and then you can:
+
+- `npm install` to actually get the utils to do anything
+- `npm run download-python` downloads the appropriate Python for this OS into this folder, which Downline then uses in development mode.
+- `npm run download-python-all` downloads all Python for every OS into this folder.
+
+### Publishing
 
 When publishing a new release, don't forget to
 

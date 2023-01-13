@@ -1,0 +1,23 @@
+{
+  "name": "downline-utils",
+  "version": "1.0.0",
+  "description": "Does not use Rust, since Rust projects take up too much space, and take too long to compile to provide a nice developer experience for one-off utilities.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "download-python": "node ./download-python.js",
+    "download-python-all": "node ./download-python-all.js"
+  },
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "@shockpkg/archive-files": "^2.1.2",
+    "fs-extra": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
