@@ -4,20 +4,20 @@
     "tauri": "tauri",
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "build:debug": "tauri build --debug"
+    "build:debug": "tauri build --debug",
+    "download-python": "deno utils/download-python.js",
+    "download-python-all": "deno utils/download-python-all.js"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@github/mini-throttle": "^2.1.0",
     "@tauri-apps/api": "^1.0.0-beta.5",
-    "@types/fs-extra": "^11.0.1",
-    "@types/node": "^18.11.18",
-    "fs-extra": "^11.1.0",
     "vue": "^3.2.45"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.2.2",
     "@vitejs/plugin-vue": "^4.0.0",
+    "deno-bin": "^1.29.3",
     "typescript": "^4.9.3",
     "vite": "^4.0.0",
     "vue-tsc": "^1.0.11"

@@ -1,9 +1,0 @@
-{
-  "compilerOptions": {
-    "checkJs": true,
-    "allowJs": true,
-    "strict": true,
-    "outDir": "./dist"
-  },
-  "include": ["**/*.js", "**/*.ts"]
-}
